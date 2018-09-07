@@ -33,12 +33,12 @@ docker run -it --rm -p 8888:8888 \
   my_nipype
 
 ## Once open,  jupyter workbook can be opened with the folling:
-jupyter notebook --port=9999 --no-browser --ip=0.0.0.0 --allow-root &
+jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root &
 
 ## This will generate a key, like this:
-http://97afb4516f4b:9999/?token=50f351a966bb65b147807bddee19b5aa53cff089cf5afe73&token=50f351a966bb65b147807bddee19b5aa556asdfhjadsf741241
+http://97afb4516f4b:8888/?token=50f351a966bb65b147807bddee19b5aa53cff089cf5afe73&token=50f351a966bb65b147807bddee19b5aa556asdfhjadsf741241
 
 ## Change the characters at the beginning and paste it into a web browser, e.g.:
-http://localhost:9999/?token=50f351a966bb65b147807bddee19b5aa53cff089cf5afe73&token=50f351a966bb65b147807bddee19b5aa556asdfhjadsf741241
+http://localhost:8888/?token=50f351a966bb65b147807bddee19b5aa53cff089cf5afe73&token=50f351a966bb65b147807bddee19b5aa556asdfhjadsf741241
 
 ## Navigate from the root to whatever folder you set up.
